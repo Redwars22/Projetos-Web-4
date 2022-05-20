@@ -1,0 +1,27 @@
+div.header-container {
+  background-color: var(--grey);
+  color: var(--lightgrey);
+  border-bottom: 2px solid var(--lightgrey);
+  padding: 5px;
+  gap: 10px;
+  font-size: 19px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.link {
+  color: rgb(153, 152, 152);
+  text-decoration: none;
+  margin-right: 5px;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+}
+
+.link:hover {
+  color: white;
+}
+
+.dev-badge {
+  font-weight: bold;
+  color: red;
+}

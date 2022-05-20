@@ -1,0 +1,46 @@
+/* Add application styles & imports to this file! */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css');
+
+/* GLOBAL LAYOUT DEFINITIONS*/
+
+:root {
+  --grey: #3e3f41;
+  --lightgrey: #8e8e8f;
+  --darkergrey: #fff;
+}
+
+* {
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+body {
+  margin: 0px;
+  background-color: var(--grey) !important;
+}
+
+div.horizontal-flex-layout {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+nav {
+  display: flex;
+}
+
+div.vertical-flex-layout {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1.title {
+  font-weight: bold;
+  font-size: 45px;
+}
+
+div.mobile-adaptive-layout {
+}

@@ -1,0 +1,42 @@
+.balance {
+  font-size: 100px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.balance-monitor-container {
+  color: white;
+  padding: 15px;
+  gap: 25px;
+}
+
+.spent-value {
+  color: red;
+  font-size: 25px;
+}
+
+.item-name {
+  font-size: 23px;
+}
+
+.item-icon {
+  font-size: 30px;
+}
+
+.outside-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 50px;
+  justify-content: space-around;
+}
+
+#expenses-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #4c4a4a;
+  padding: 15px;
+  border-radius: 15px;
+}

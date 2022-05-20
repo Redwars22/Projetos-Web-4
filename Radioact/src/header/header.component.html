@@ -1,0 +1,25 @@
+<div class="horizontal-flex-layout header-container">
+  <div class="horizontal-flex-layout" style="gap: 10px">
+    <img
+      class="app-logo"
+      src="https://redwars22.github.io/Projetos-Web-4/resx/radioact.png"
+      alt=""
+      width="40px"
+      height="40px"
+    />
+    <span class="dev-badge" *ngIf="isDEV">DEV!</span>
+    <nav>
+      <button class="link" (click)="resetEverything()">
+        <i class="bi bi-trash"></i>
+        Resetar
+      </button>
+      <button class="link" href="" target="">
+        <i class="bi bi-question"></i>Ajuda
+      </button>
+      <button class="link" (click)="showAboutAlert()">
+        <i class="bi bi-info"></i>Sobre
+      </button>
+    </nav>
+  </div>
+  <span class="title">Project Radioact {{ versionString }}</span>
+</div>

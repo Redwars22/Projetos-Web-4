@@ -1,0 +1,30 @@
+<div class="outside-container">
+  <div class="balance-monitor-container vertical-flex-layout">
+    <h1 class="title">TOTAL DE DINHEIRO</h1>
+    <span class="balance">R$ {{ amountOfMoney.toFixed(2) }}</span>
+    <button class="btn btn-success" (click)="addMoney()">
+      <i class="bi bi-cash-coin"></i>ADICIONAR DINHEIRO
+    </button>
+    <div class="horizontal-flex-layout mobile-adaptive-layout">
+      <input
+        class="form-control"
+        placeholder="Descrição do produto"
+        id="product-description"
+        required
+      />
+      <input
+        class="form-control"
+        id="value-to-spend"
+        type="number"
+        step="0.01"
+        style="max-width: 80px"
+        placeholder="Preço"
+        required
+      />
+      <button class="btn btn-danger" (click)="spendMoney()">
+        <i class="bi bi-coin"></i>GASTAR
+      </button>
+    </div>
+  </div>
+  <div class="vertical-flex-layout" id="expenses-list"></div>
+</div>

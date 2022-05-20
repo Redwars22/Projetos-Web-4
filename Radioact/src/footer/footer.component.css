@@ -1,0 +1,27 @@
+.author-badge {
+  display: flex;
+  flex-direction: row;
+  background-color: #0000ff;
+  align-items: center;
+  color: white;
+  max-width: 250px;
+  max-height: 55px;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.github-icon {
+  filter: invert(100%);
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 20px;
+  border-top: 2px solid var(--lightgrey);
+  margin-top: 150px;
+}
