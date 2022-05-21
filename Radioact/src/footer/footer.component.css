@@ -4,8 +4,6 @@
   background-color: #0000ff;
   align-items: center;
   color: white;
-  max-width: 250px;
-  max-height: 55px;
   gap: 10px;
   padding: 10px;
   border-radius: 10px;
@@ -23,5 +21,5 @@
   color: white;
   padding: 20px;
   border-top: 2px solid var(--lightgrey);
-  margin-top: 150px;
+  margin-top: 50px;
 }

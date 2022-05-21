@@ -30,6 +30,7 @@
   align-items: center;
   gap: 50px;
   justify-content: space-around;
+  margin-top: 35px;
 }
 
 #expenses-list {
@@ -37,6 +38,6 @@
   flex-direction: column;
   align-items: flex-start;
   background-color: #4c4a4a;
-  padding: 15px;
+  padding: 25px;
   border-radius: 15px;
 }

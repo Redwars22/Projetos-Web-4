@@ -22,7 +22,8 @@ export class BalanceMonitorComponent implements OnInit {
   async addMoney() {
     const { value: money } = await Swal.fire({
       title: 'Adicionar dinheiro',
-      input: 'text',
+      input: 'number',
+      inputValue: '0.00',
       inputLabel: 'Quanto dinheiro deseja adicionar ao Radioact?',
       inputPlaceholder: 'Insira a quantia de dinheiro',
     });

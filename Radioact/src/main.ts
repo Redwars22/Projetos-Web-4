@@ -18,5 +18,5 @@ platformBrowserDynamic()
   })
   .catch((err) => console.error(err));
 
-export const version: string = 'v0.9.0';
-export const author: string = 'Redwars22';
+export const version: string = 'v1.0';
+export const author: string = '@Redwars22';

@@ -9,7 +9,7 @@ import { version } from '../main';
 })
 export class HeaderComponent implements OnInit {
   versionString = version;
-  isDEV: boolean = true;
+  isDEV: boolean = false;
 
   constructor() {}
 
@@ -48,5 +48,12 @@ export class HeaderComponent implements OnInit {
         });
       }
     });
+  }
+
+  showHelpPage() {
+    window.open(
+      'https://redwars22.notion.site/Ajuda-do-Project-Radioact-831ad1933ac248b5ae9d3628e70a9ead',
+      '_blank'
+    );
   }
 }
